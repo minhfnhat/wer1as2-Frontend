@@ -79,7 +79,7 @@ const ComponentByName: Record<string, FC> = {
 export default function Page() {
   const [theme, setTheme] = useState<TemplateTheme>("minimal");
 
-  function render(config: { id: string, variables?: Record<string, string> }, index: number, theme: TemplateTheme) {
+  function render(config: { id: string; variables?: Record<string, string> | undefined }, index: number, theme: TemplateTheme) {
     if (typeof ComponentByName[config.id] !== "undefined") {
       return React.createElement<{ theme: TemplateTheme, variables: Record<string, string> }>(
           ComponentByName[config.id],
