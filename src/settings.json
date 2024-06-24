@@ -1,0 +1,40 @@
+{
+  "components": [
+    {
+      "id": "BannerWithLink",
+      "variables": null
+    },
+    {
+      "id": "HeroSimpleCentered",
+      "variables": null
+    },
+    {
+      "id": "TestimonialsGrid",
+      "variables": null
+    },
+    {
+      "id": "StatsSimpleGrid",
+      "variables": null
+    },
+    {
+      "id": "CtaSimpleCentered",
+      "variables": null
+    },
+    {
+      "id": "FaqsOffsetWithSupportingText",
+      "variables": null
+    },
+    {
+      "id": "NewsletterCenteredCard",
+      "variables": null
+    },
+    {
+      "id": "FooterSimpleCentered",
+      "variables": null
+    }
+  ],
+  "theme": "minimal",
+  "font": "",
+  "title": "Unleash the Power of Mobility",
+  "subtitle": "Introducing the ultimate driving experience with our innovative car solutions. Embrace the freedom of the open road with style and confidence."
+}
